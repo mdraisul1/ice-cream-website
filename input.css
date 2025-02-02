@@ -6,6 +6,14 @@
 @tailwind utilities;
 
 /* custom css  */
+html{
+    @apply bg-yellow-100;
+}
+
+body{
+    @apply bg-white tracking-wider max-w-[1920px];
+}
+
 .nav-link{
     @apply text-xl font-bold duration-300;
 }

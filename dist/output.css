@@ -671,8 +671,21 @@ video {
   margin-right: auto;
 }
 
+.mx-3{
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+}
+
 .mt-8{
   margin-top: 2rem;
+}
+
+.mt-4{
+  margin-top: 1rem;
+}
+
+.mt-2{
+  margin-top: 0.5rem;
 }
 
 .flex{
@@ -760,6 +773,10 @@ video {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
+.grid-cols-4{
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
 .flex-col{
   flex-direction: column;
 }
@@ -792,6 +809,10 @@ video {
   gap: 2rem;
 }
 
+.gap-6{
+  gap: 1.5rem;
+}
+
 .space-y-4 > :not([hidden]) ~ :not([hidden]){
   --tw-space-y-reverse: 0;
   margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
@@ -810,6 +831,10 @@ video {
 
 .rounded-full{
   border-radius: 9999px;
+}
+
+.rounded-md{
+  border-radius: 0.375rem;
 }
 
 .border-b{
@@ -1013,6 +1038,10 @@ video {
   font-weight: 500;
 }
 
+.font-bold{
+  font-weight: 700;
+}
+
 .capitalize{
   text-transform: capitalize;
 }
@@ -1035,6 +1064,16 @@ video {
 .text-link{
   --tw-text-opacity: 1;
   color: rgb(225 9 20 / var(--tw-text-opacity, 1));
+}
+
+.text-gray-400{
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity, 1));
+}
+
+.text-gray-600{
+  --tw-text-opacity: 1;
+  color: rgb(75 85 99 / var(--tw-text-opacity, 1));
 }
 
 .opacity-50{
@@ -1222,6 +1261,10 @@ p{
     top: 2.5rem;
   }
 
+  .sm\:grid{
+    display: grid;
+  }
+
   .sm\:h-20{
     height: 5rem;
   }
@@ -1265,6 +1308,10 @@ p{
     max-width: 28rem;
   }
 
+  .md\:grid-cols-3{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
   .md\:flex-row{
     flex-direction: row;
   }
@@ -1304,6 +1351,10 @@ p{
     display: block;
   }
 
+  .lg\:grid{
+    display: grid;
+  }
+
   .lg\:hidden{
     display: none;
   }
@@ -1321,6 +1372,10 @@ p{
     width: auto;
   }
 
+  .lg\:w-full{
+    width: 100%;
+  }
+
   .lg\:max-w-lg{
     max-width: 32rem;
   }
@@ -1329,12 +1384,20 @@ p{
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .lg\:grid-cols-4{
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
   .lg\:flex-row{
     flex-direction: row;
   }
 
   .lg\:gap-20{
     gap: 5rem;
+  }
+
+  .lg\:gap-6{
+    gap: 1.5rem;
   }
 
   .lg\:border-0{

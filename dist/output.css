@@ -844,6 +844,78 @@ video {
   background-color: rgb(253 224 71 / var(--tw-bg-opacity, 1));
 }
 
+.bg-\[\]{
+  background-color: ;
+}
+
+.bg-\[url\]{
+  background-color: url;
+}
+
+.bg-\[url\(\)\]{
+  background-image: url();
+}
+
+.bg-\[url\(\'\.\/asst\'\)\]{
+  background-image: url('./asst');
+}
+
+.bg-\[url\(\'\.\/ass\'\)\]{
+  background-image: url('./ass');
+}
+
+.bg-\[url\(\'\.\/assets\/\'\)\]{
+  background-image: url('./assets/');
+}
+
+.bg-\[url\(\'\.\/assets\/img\'\)\]{
+  background-image: url('./assets/img');
+}
+
+.bg-\[url\(\'\.\/assets\/img\/\'\)\]{
+  background-image: url('./assets/img/');
+}
+
+.bg-\[url\(\'\.\/assets\/img\/promo\'\)\]{
+  background-image: url('./assets/img/promo');
+}
+
+.bg-\[url\(\'\.\/assets\/img\/promo-\'\)\]{
+  background-image: url('./assets/img/promo-');
+}
+
+.bg-\[url\(\'\.\/assets\/img\/promo-bg\'\)\]{
+  background-image: url('./assets/img/promo-bg');
+}
+
+.bg-\[url\(\'\.\/assets\/img\/promo-bg\.\'\)\]{
+  background-image: url('./assets/img/promo-bg.');
+}
+
+.bg-\[url\(\'\.\/assets\/img\/promo-bg\.jpg\'\)\]{
+  background-image: url('./assets/img/promo-bg.jpg');
+}
+
+.bg-\[url\(\'assets\/img\/promo-bg\.jpg\'\)\]{
+  background-image: url('assets/img/promo-bg.jpg');
+}
+
+.bg-\[url\(\'assets\/img\/promo_bg\.jpg\'\)\]{
+  background-image: url('assets/img/promo_bg.jpg');
+}
+
+.bg-\[url\(\'\.\/assets\/img\/promo_bg\.jpg\'\)\]{
+  background-image: url('./assets/img/promo_bg.jpg');
+}
+
+.bg-cover{
+  background-size: cover;
+}
+
+.bg-top{
+  background-position: top;
+}
+
 .px-4{
   padding-left: 1rem;
   padding-right: 1rem;
@@ -877,6 +949,14 @@ video {
 
 .pt-32{
   padding-top: 8rem;
+}
+
+.pt-36{
+  padding-top: 9rem;
+}
+
+.pb-24{
+  padding-bottom: 6rem;
 }
 
 .text-center{
